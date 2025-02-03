@@ -1,7 +1,6 @@
 import csv
 import xml.etree.ElementTree as ET
 import lxml.etree as etree
-from decimal import Decimal
 
 def create_camt053(csv_file, xml_file):
     # Read CSV file
